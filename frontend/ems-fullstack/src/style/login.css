@@ -1,0 +1,46 @@
+/* Background */
+.login-background {
+  background: linear-gradient(135deg, #5efce8, #736efe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.login-wrapper {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-wrapper:hover {
+  transform: scale(1.02);
+}
+
+/* Titles */
+.login-title {
+  font-weight: 700;
+  color: #4a00e0;
+  margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Error */
+.login-error {
+  background-color: #ffcccc;
+  color: #b30000;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
